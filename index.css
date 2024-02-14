@@ -29,10 +29,11 @@ body {
 
 .category-container {
   display: FLEX;
-  padding: 0px 300PX;
+  padding: 0px 300px;
   margin: 15px;
-  gap: 300PX;
-  /*ESTILIZAÇÃO DAS FONTES*/
+  gap: 300px;
+}
+.category-container p {
   color: rgba(37, 37, 37, 0.8);
   font-family: Avenir;
   font-size: 24px;
@@ -54,9 +55,9 @@ h1 {
 
 .pictures-container {
   display: flex;
-  padding: 0px 240PX;
+  padding: 0px 240px;
   margin: 15px;
-  gap: 190PX;
+  gap: 190px;
   width: 300px;
   height: 300px;
 }
@@ -133,7 +134,7 @@ h2 {
   gap: 10px;
   border-radius: 16px;
   background: #050505;
-  color: #FFF;
+  color: #fff;
   font-family: Work Sans;
   font-size: 24px;
   font-style: normal;
